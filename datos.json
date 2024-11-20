@@ -1,0 +1,148 @@
+[
+  {
+    "title": "A",
+    "category": "grupo-1",
+    "image": "letras/a.png"
+  },
+  {
+    "title": "B",
+    "category": "grupo-5",
+    "image": "letras/b.png"
+  },
+  {
+    "title": "C",
+    "category": "grupo-3",
+    "image": "letras/c.png"
+  },
+  {
+    "title": "CH",
+    "category": "grupo-7",
+    "image": "letras/ch.png"
+  },
+  {
+    "title": "D",
+    "category": "grupo-3",
+    "image": "letras/d.png"
+  },
+  {
+    "title": "E",
+    "category": "grupo-1",
+    "image": "letras/e.png"
+  },
+  {
+    "title": "F",
+    "category": "grupo-4",
+    "image": "letras/f.png"
+  },
+  {
+    "title": "G",
+    "category": "grupo-4",
+    "image": "letras/g.png"
+  },
+  {
+    "title": "H",
+    "category": "grupo-5",
+    "image": "letras/h.png"
+  },
+   {
+    "title": "I",
+    "category": "grupo-1",
+    "image": "letras/i.png"
+  },
+   {
+    "title": "J",
+    "category": "grupo-5",
+    "image": "letras/j.png"
+  },
+   {
+    "title": "K",
+    "category": "grupo-7",
+    "image": "letras/k.png"
+  },
+   {
+    "title": "L",
+    "category": "grupo-6",
+    "image": "letras/l.png"
+  },
+  {
+    "title": "LL",
+    "category": "grupo-6",
+    "image": "letras/ll.png"
+  },
+   {
+    "title": "M",
+    "category": "grupo-2",
+    "image": "letras/m.png"
+  },
+   {
+    "title": "N",
+    "category": "grupo-4",
+    "image": "letras/n.png"
+  },
+   {
+    "title": "Ñ",
+    "category": "grupo-7",
+    "image": "letras/ñ.png"
+  },
+   {
+    "title": "O",
+    "category": "grupo-1",
+    "image": "letras/o.png"
+  },
+   {
+    "title": "P",
+    "category": "grupo-2",
+    "image": "letras/p.png"
+  },
+   {
+    "title": "Q",
+    "category": "grupo-5",
+    "image": "letras/q.png"
+  },
+   {
+    "title": "R",
+    "category": "grupo-4",
+    "image": "letras/r.png"
+  },
+   {
+    "title": "S",
+    "category": "grupo-2",
+    "image": "letras/s.png"
+  },
+   {
+    "title": "T",
+    "category": "grupo-3",
+    "image": "letras/t.png"
+  },
+   {
+    "title": "U",
+    "category": "grupo-1",
+    "image": "letras/u.png"
+  },
+   {
+    "title": "V",
+    "category": "grupo-3",
+    "image": "letras/v.png"
+  },
+  {
+    "title": "W",
+    "category": "grupo-6",
+    "image": "letras/w.png"
+  },
+  {
+    "title": "X",
+    "category": "grupo-7",
+    "image": "letras/x.png"
+  },
+  {
+    "title": "Y",
+    "category": "grupo-6",
+    "image": "letras/y.png"
+  },
+  {
+    "title": "6",
+    "category": "grupo-6",
+    "image": "letras/6.png"
+  },
+
+]
