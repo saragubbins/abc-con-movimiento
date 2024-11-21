@@ -82,7 +82,7 @@
    {
     "title": "Ñ",
     "category": "grupo-7",
-    "image": "letras/ñ.png"
+    "image": "letras/nn.png"
   },
    {
     "title": "O",
@@ -143,6 +143,6 @@
     "title": "6",
     "category": "grupo-6",
     "image": "letras/6.png"
-  },
+  }
 
 ]
