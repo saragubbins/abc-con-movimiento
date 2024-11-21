@@ -5,7 +5,7 @@
 */
 
 const loadItems = async () => {
-	const jsonUrl = "data/datos.json";
+	const jsonUrl = "datos.json";
 	const portfolioGrid = document.getElementById("portfolio-grid");
 
 	return fetch(jsonUrl)
