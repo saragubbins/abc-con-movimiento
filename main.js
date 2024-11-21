@@ -71,8 +71,3 @@ const loadItems = async () => {
 
 })(jQuery);
 
-AOS.init({
-	easing: 'ease',
-	duration: 1000,
-	once: true
-});
