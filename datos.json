@@ -2,147 +2,220 @@
   {
     "title": "A",
     "category": "grupo-1",
-    "image": "letras/a.png"
+    "image": "letras/a.png",
+    "description": "Ejercicio práctico letra A para descargar.",
+    "verso": "A,;ya estoy acá"
   },
   {
     "title": "B",
     "category": "grupo-5",
-    "image": "letras/b.png"
+    "image": "letras/b.png",
+    "description": "Ejercicio práctico letra B para descargar.",
+    "verso": "Bárbara amasa bellos bollitos,;bollitos pequeñitos"
   },
   {
     "title": "C",
     "category": "grupo-3",
-    "image": "letras/c.png"
+    "image": "letras/c.png",
+    "description": "Ejercicio práctico letra C para descargar.",
+    "verso": "Cuentan que el caracol;saca muy contento sus cachitos al sol"
+
   },
   {
     "title": "CH",
     "category": "grupo-7",
-    "image": "letras/ch.png"
+    "image": "letras/ch.png",
+    "description": "Ejercicio práctico letra CH para descargar.",
+    "verso": "Chas, chas, chas,;muchas chispas chisporrotean ya"
   },
   {
     "title": "D",
     "category": "grupo-3",
-    "image": "letras/d.png"
+    "image": "letras/d.png",
+    "description": "Ejercicio práctico letra D para descargar.",
+    "verso": "El duende Dodo;da diez dedales de oro"
   },
   {
     "title": "E",
     "category": "grupo-1",
     "image": "letras/e.png"
+    "description": "Ejercicio práctico letra E para descargar.",
+    "verso": "E,;ya llegué"
   },
   {
     "title": "F",
     "category": "grupo-4",
     "image": "letras/f.png"
+    "description": "Ejercicio práctico letra F para descargar.",
+    "verso": "fuego, fuego que fulgor,;que flameas fabuloso.;Llevo un fuego,; fuego en mi corazón"
+
   },
   {
     "title": "G",
     "category": "grupo-4",
     "image": "letras/g.png"
+    "description": "Ejercicio práctico letra G para descargar.",
+    "verso": "Gato galante, gato guardián,;elástico y elegante va el gato guardián"
+
   },
   {
     "title": "H",
     "category": "grupo-5",
     "image": "letras/h.png"
+    "description": "Ejercicio práctico letra H para descargar.",
+    "verso": "-en producción"
   },
    {
     "title": "I",
     "category": "grupo-1",
     "image": "letras/i.png"
+    "description": "Ejercicio práctico letra I para descargar.",
+     "verso": "I,;ya estoy aquí"
   },
    {
     "title": "J",
     "category": "grupo-5",
     "image": "letras/j.png"
+    "description": "Ejercicio práctico letra J para descargar.",
+     "verso": "En la jungla africana;jóvenes jaguares juegan juntos"
+
   },
    {
     "title": "K",
     "category": "grupo-7",
     "image": "letras/k.png"
+    "description": "Ejercicio práctico letra K para descargar.",
+     "verso": "-en producción"
   },
    {
     "title": "L",
     "category": "grupo-2",
     "image": "letras/l.png"
+    "description": "Ejercicio práctico letra L para descargar.",
+     "verso": "Lindo lirio,;leve y ligero,;elegante te elevas;a las alturas del cielo"
+
   },
   {
     "title": "LL",
     "category": "grupo-6",
     "image": "letras/ll.png"
+    "description": "Ejercicio práctico letra LL para descargar.",
+    "verso": "-en producción"
   },
    {
     "title": "M",
     "category": "grupo-2",
     "image": "letras/m.png"
+    "description": "Ejercicio práctico letra M para descargar.",
+    "verso": "Majestuosa es la montaña,;manantial de aguas mansas"
+
   },
    {
     "title": "N",
     "category": "grupo-4",
     "image": "letras/n.png"
+    "description": "Ejercicio práctico letra N para descargar.",
+    "verso": "El enano Nino dice NO,;nueces No, naranjas No,;ni nueces, ni naranjas, nada"
+
   },
    {
     "title": "Ñ",
     "category": "grupo-7",
     "image": "letras/nn.png"
+    "description": "Ejercicio práctico letra Ñ para descargar.",
+    "verso": "Los niños miran al ñandú,;que le gusta comer piñas y piñones como tú"
+
+
   },
    {
     "title": "O",
     "category": "grupo-1",
     "image": "letras/o.png"
+   "description": "Ejercicio práctico letra O para descargar.",
+    "verso":"O,; Aquí estoy yo"
+
   },
    {
     "title": "P",
     "category": "grupo-2",
     "image": "letras/p.png"
+    "description": "Ejercicio práctico letra P para descargar.",
+    "verso": "Un pollito pequeñito pía pía pía;salta con una patita sola;pica con el pico palomitas"
+
   },
    {
     "title": "Q",
     "category": "grupo-5",
     "image": "letras/q.png"
+    "description": "Ejercicio práctico letra Q para descargar.",
+    "verso": "¿Que es eso?;un queso que rico suena eso"
+
   },
    {
     "title": "R",
     "category": "grupo-4",
     "image": "letras/r.png"
+    "description": "Ejercicio práctico letra R para descargar.",
+    "verso": "Los rayos del sol,;oro, oro, oro purito son"
+
   },
    {
     "title": "S",
     "category": "grupo-2",
     "image": "letras/s.png"
+    "description": "Ejercicio práctico letra S para descargar.",
+    "verso":"SSS,;La serpiente se desliza;con mucha prisa,;SSS"
+
   },
    {
     "title": "T",
     "category": "grupo-3",
     "image": "letras/t.png"
+    "description": "Ejercicio práctico letra T para descargar.",
+    "verso": "Tengo, tengo, tengo;tres tazas de té"
   },
    {
     "title": "U",
     "category": "grupo-1",
     "image": "letras/u.png"
+    "description": "Ejercicio práctico letra U para descargar.",
+    "verso": "U, aquí estás tú"
   },
    {
     "title": "V",
     "category": "grupo-3",
     "image": "letras/v.png"
+    "description": "Ejercicio práctico letra V para descargar.",
+   "verso":" Viento vuela con vehemencia,;Viento vuela con vehemencia"
   },
   {
     "title": "W",
     "category": "grupo-6",
     "image": "letras/w.png"
+    "description": "Ejercicio práctico letra W para descargar.",
+    "verso": "-en producción"
   },
   {
     "title": "X",
     "category": "grupo-7",
     "image": "letras/x.png"
+    "description": "Ejercicio práctico letra X para descargar.",
+    "verso":"-en producción"
   },
   {
     "title": "Y",
     "category": "grupo-6",
     "image": "letras/y.png"
+    "description": "Ejercicio práctico letra Y para descargar.",
+    "verso": "Yo estoy aquí,;aquí estoy yo,;en mi corazón"
+
   },
   {
     "title": "Z",
     "category": "grupo-6",
     "image": "letras/z.png"
+    "description": "Ejercicio práctico letra Z para descargar.",
+    "verso": "Zum, zum, zum abejita zum,;volando de flor en flor;la miel dulce nos das,;rayos de sol"
   }
 
 ]
