@@ -1,9 +1,3 @@
-/*
-* Template Name: MyPortfolio
-* Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
-* License: https://bootstrapmade.com/license/
-*/
-
 const loadItems = async () => {
 	const jsonUrl = "datos.json";
 	const portfolioGrid = document.getElementById("portfolio-grid");
@@ -17,7 +11,7 @@ const loadItems = async () => {
 				const projectDiv = document.createElement("div");
 				projectDiv.className = `item ${project.category.toLowerCase()} col-sm-6 col-md-4 col-lg-4 mb-4`;
 				projectDiv.innerHTML = `
-					<a href="#" class="item-wrap fancybox">
+					<a href="single.html?letra=${project.title}" class="item-wrap fancybox">
 					<div class="work-info">
 							<h3>${project.title}</h3>
 							<span>${project.category}</span>

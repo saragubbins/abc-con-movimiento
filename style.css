@@ -32,6 +32,10 @@ h6,
   font-family: "Raleway", sans-serif;
 }
 
+.verse-line {
+  margin: 0 !important;
+}
+
 .site-section {
   padding: 7rem 0;
 }
