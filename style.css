@@ -9,9 +9,83 @@
 # General
 --------------------------------------------------------------*/
 
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5em auto;
+}
+
+.grupo-1 {
+  color: #30b192 !important;
+}
+
+.grupo-2 {
+  color: #ccb6d8 !important;
+}
+
+.grupo-3 {
+  color: #ee78ac !important;
+}
+
+.grupo-4 {
+  color: #f1bb0a !important;
+}
+
+.grupo-5 {
+  color: #0b62aa !important;
+}
+
+.grupo-6 {
+  color: #83c6db !important;
+}
+
+.grupo-7 {
+  color: #ea5d2e !important;
+}
+
+.move-btn {
+  position: fixed !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  width: 3em;
+  height: 3em;
+  background-color: #2eb090;
+  padding: 10px 15px;
+  border-radius: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+.move-btn:hover {
+  background-color: #269176;
+}
+
+.move-btn a {
+  color: #fff !important;
+}
+
+.move-btn a:hover {
+  text-decoration: none;
+}
+
+
+.prev {
+  left: 5%;
+}
+
+.next {
+  right: 5%;
+}
+
 body {
   font-family: "Helvetica", monosapce;
-  color: #0d1e2d;
+  color: #0d2c47;
 }
 
 a {
@@ -34,6 +108,28 @@ h6,
 
 .verse-line {
   margin: 0 !important;
+}
+
+.logo {
+  width: 150px;
+  height: 75px;
+}
+
+#contact {
+  background-color: #a6d6cc !important;
+}
+
+#about {
+  background-color: #cee9f2 !important;
+}
+
+#imagen-letra {
+  border: 1px solid #000;
+}
+
+#contact input,
+#contact textarea {
+  background-color: #cee0dc !important;
 }
 
 .site-section {
@@ -366,7 +462,7 @@ h6,
 /* Custom Navmenu */
 
 .custom-navmenu {
-  background: #0d1e2d;
+  background: #cdb7da;
 }
 
 .custom-navmenu .custom-menu,
@@ -400,11 +496,11 @@ h6,
 }
 
 .custom-navmenu p {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .custom-navmenu a {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .custom-navmenu a:hover {
@@ -414,8 +510,9 @@ h6,
 /* Custom Navbar */
 
 .custom-navbar {
-  padding-top: 50px;
+  padding: 50px 0;
   width: 100%;
+  background-color: #fff;
 }
 
 .custom-navbar .navbar-brand {

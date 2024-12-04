@@ -1,13 +1,13 @@
-const loadItems = async () => {
+const loadItems = () => {
 	const jsonUrl = "datos.json";
 	const portfolioGrid = document.getElementById("portfolio-grid");
+
+	if (!portfolioGrid) return;
 
 	return fetch(jsonUrl)
 		.then(response => response.json())
 		.then(data => {
-			// console.log(data);
 			data.forEach(project => {
-				console.log(project);
 				const projectDiv = document.createElement("div");
 				projectDiv.className = `item ${project.category.toLowerCase()} col-sm-6 col-md-4 col-lg-4 mb-4`;
 				projectDiv.innerHTML = `
@@ -21,7 +21,6 @@ const loadItems = async () => {
 				`;
 
 				portfolioGrid.appendChild(projectDiv);
-				console.log('Appended');
 			});
 		})
 		.catch(error => console.error("Error al cargar los datos del JSON:", error));

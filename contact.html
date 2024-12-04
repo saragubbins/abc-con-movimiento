@@ -33,10 +33,15 @@
 
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 </head>
 
 
-<body>
+<body id="contact">
 
   <div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
     <div class="container py-2 py-md-5">
@@ -48,28 +53,21 @@
             <li><a href="contact.html">Contacto</a></li>
           </ul>
         </div>
-        <div class="col-md-6 d-none d-md-block  mr-auto">
+        <div class="col-md-10 d-none d-md-block mr-auto">
           <div class="tweet d-flex">
             <span class="icofont-twitter text-white mt-2 mr-3"></span>
             <div>
-              <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut
-                  officiis explicabo inventore. <br> <a href="#">t.co/v82jsk</a></em></p>
+              <p>Herramienta educacional que sistematiza el entendimiento del fonema al grafema a través de una experiencia unitaria entre el sonido, movimiento y asociación visual, mediante ejercicios grafomotrices que desarrollan las habilidades necesarias para el proceso previo a la lectoescritura.</p>
             </div>
           </div>
         </div>
-        <div class="col-md-4 d-none d-md-block">
-          <h3>Hire Me</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiis
-            explicabo inventore. <br> <a href="#">myemail@gmail.com</a></p>
-        </div>
       </div>
-
     </div>
   </div>
 
   <nav class="navbar navbar-light custom-navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Logo</a>
+      <a class="navbar-brand" href="index.html"><img src="logo.png" alt="logo" class="logo"></a>
 
       <a href="#" class="burger" data-toggle="collapse" data-target="#main-navbar">
         <span></span>
@@ -85,10 +83,7 @@
 
         <div class="row mb-5 align-items-end">
           <div class="col-md-6" data-aos="fade-up">
-            <h2>Contact</h2>
-            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut
-              officiis explicabo inventore.
-            </p>
+            <h2>Contacto</h2>
           </div>
 
         </div>
@@ -100,23 +95,23 @@
               
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <label for="name">Name</label>
+                  <label for="name">Nombre</label>
                   <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                   <div class="validate"></div>
                 </div>
                 <div class="col-md-6 form-group">
-                  <label for="name">Email</label>
+                  <label for="email">Email</label>
                   <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
                   <div class="validate"></div>
                 </div>
                 <div class="col-md-12 form-group">
-                  <label for="name">Subject</label>
+                  <label for="subject">Asunto</label>
                   <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                   <div class="validate"></div>
                 </div>
                 <div class="col-md-12 form-group">
-                  <label for="name">Message</label>
-                  <textarea class="form-control" name="message" cols="30" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+                  <label for="message">Mensaje</label>
+                  <textarea class="form-control" name="message" cols="30" rows="10" data-rule="required" data-msg="Please write something for us" title="Mensaje" placeholder="Escribe tu mensaje aquí"></textarea>
                   <div class="validate"></div>
                 </div>
 
@@ -128,7 +123,7 @@
                 </div>
 
                 <div class="col-md-6 form-group">
-                  <input type="submit" class="readmore d-block w-100" value="Send Message">
+                  <input type="submit" class="readmore d-block w-100" value="Enviar">
                 </div>
               </div>
 
@@ -139,51 +134,26 @@
           <div class="col-md-4 ml-auto order-2" data-aos="fade-up">
             <ul class="list-unstyled">
               <li class="mb-3">
-                <strong class="d-block mb-1">Address</strong>
-                <span>203 Fake St. Mountain View, San Francisco, California, USA</span>
-              </li>
-              <li class="mb-3">
-                <strong class="d-block mb-1">Phone</strong>
-                <span>+1 232 3235 324</span>
+                <strong class="d-block mb-1">Teléfono</strong>
+                <span>+56 9 1234 5678</span>
               </li>
               <li class="mb-3">
                 <strong class="d-block mb-1">Email</strong>
-                <span>youremail@domain.com</span>
+                <span>abc@movimiento.com</span>
               </li>
             </ul>
           </div>
-
         </div>
-
       </div>
-
     </div>
+    
+    <div class="container flex">
+      <div>
+      Proyecto de título y web diseñada por <a href="https://www.linkedin.com/in/sara-gubbins-995519269"> Sara Gubbins</a>
+     </div>
+    </div>
+    
   </main>
-
-  <footer class="footer mt-5 pt-5" role="contentinfo">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <p class="mb-1">&copy; Copyright MyPortfolio. All Rights Reserved</p>
-          <div class="credits">
-            <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=MyPortfolio
-            -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-          </div>
-        </div>
-        <div class="col-sm-6 social text-md-right">
-          <a href="#"><span class="icofont-twitter"></span></a>
-          <a href="#"><span class="icofont-facebook"></span></a>
-          <a href="#"><span class="icofont-dribbble"></span></a>
-          <a href="#"><span class="icofont-behance"></span></a>
-        </div>
-      </div>
-    </div>
-  </footer>
 
   <!-- Vendor JS Files -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

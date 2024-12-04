@@ -17,7 +17,7 @@ $(document).ready(async function () {
     $('#titulo-letra').text(item.title);
     $('#descripcion-letra').text(item.description);
     $('#imagen-letra')
-        .attr('src', item.image)
+        .attr('src', item.jpg)
         .attr('alt', item.title);
 
     const downloadUrl = downloadPrefix + item.pdf;
@@ -34,5 +34,25 @@ $(document).ready(async function () {
     const verseLines = item.verso.split(';');
     verseLines.forEach(line => {
         $('#verso-letra').append($('<p class="verse-line">').text(line));
+    });
+
+    if (!item.prev) {
+        $('.prev').hide();
+    }
+
+    if (!item.next) {
+        $('.next').hide();
+    }
+
+    $('#prev-btn')
+        .attr('href', `single.html?letra=${item.prev}`)
+        .text(item.prev);
+
+    $('#next-btn')
+        .attr('href', `single.html?letra=${item.next}`)
+        .text(item.next);
+
+    $('.move-btn').on('click', function () {
+        $(this).find('a')[0].click();
     });
 });
