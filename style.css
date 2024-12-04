@@ -16,34 +16,6 @@
   margin: 5em auto;
 }
 
-.grupo-1 {
-  color: #30b192 !important;
-}
-
-.grupo-2 {
-  color: #ccb6d8 !important;
-}
-
-.grupo-3 {
-  color: #ee78ac !important;
-}
-
-.grupo-4 {
-  color: #f1bb0a !important;
-}
-
-.grupo-5 {
-  color: #0b62aa !important;
-}
-
-.grupo-6 {
-  color: #83c6db !important;
-}
-
-.grupo-7 {
-  color: #ea5d2e !important;
-}
-
 .move-btn {
   position: fixed !important;
   display: flex;
